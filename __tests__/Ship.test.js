@@ -6,3 +6,11 @@ describe('Ship', () => {
         expect(new Ship()).toBeInstanceOf(Object);
     });
 });
+
+describe('Can ship set sail', () => {
+    it('can set sail', () => {
+        const ship = new Ship('Dover');
+        ship.setSail();
+        expect(ship.startingPort).toBeFalsy();
+    });
+});
