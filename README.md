@@ -3,10 +3,14 @@
 To building and working with many objects that allow a cruise ship to operate.
 
 ## User Stories and DOMAIN MODEL:
-As a cruise ship captain, So I can get passengers aboard a ship, I want a ship to have a starting port.
 
-Object	Methods	Properties
-Ship		startingPort
+## As a cruise ship captain, So I can get passengers aboard a ship, I want a ship to have a starting port. ##
+
+| Object | Methods | Properties |
+| ------ | ------- | ---------- |
+| Ship	 | ------- | startingPort |
+
+
 As a cruise ship captain, So I can get passengers started on their journey, I want a ship to be able to set sail from a port.
 
 Object Methods	Properties
